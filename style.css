@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('./ab.jpg') center center fixed;
+    background-size: cover;
+}
+.container{
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+.container h1{
+    border-bottom: 4px solid magenta;
+    margin-bottom: 40px;
+    padding: 15px 0px;
+
+}
+.box{
+    width: 100%;
+    border-bottom: 2px solid magenta;
+    margin: 28px 8px;
+}
+.box input{
+    background: none;
+    border: none;
+    width: 80%;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 2px;
+}
+.box i{
+    text-align: center;
+    width: 30px;
+}
+
+.btn{
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0px;
+    padding: 10px 20px;
+    border: 2px solid lime;
+    border-radius: 15px;
+    background: none;
+    
+}
+.btn a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+.btn:hover{
+    opacity: 0.8;
+    background-color: rgb(40, 35, 40);
+}
+@media (max-width:768px) {
+    body {
+        width: 100%;
+        height: 100vh;
+    }
+    .container {
+        width: 80%;
+        position: relative;
+        top: 20%;
+        left: 10%;
+        right: 10%;
+    }
+    .container h1 {
+        border-color: cyan;
+    }
+    .box {
+        border-color: cyan;
+    }
+}
